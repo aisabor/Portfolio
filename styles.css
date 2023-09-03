@@ -1,0 +1,225 @@
+body{
+    font-family: 'Ysabeau SC', sans-serif;
+    background: linear-gradient(white, whitesmoke, black);
+    overflow-x: hidden;
+}
+
+.fa-file-word{
+    color: red;
+}
+.custom-btn {
+    padding: 15px 30px;
+    border-radius: 5px;
+    height: 90px;
+    width: 90px;
+    background-color: #0072C6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    float: right;
+    
+}
+
+.container .btn .btn-text a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.custom-btn::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, #0072C6, transparent);
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    border-radius: 50%;
+}
+
+.custom-btn:hover::before {
+    height: 150%;
+    width: 150%;
+    opacity: 1;
+}
+
+.btn-text {
+    position: relative;
+    z-index: 2;
+    transition: transform 0.4s ease-in-out;
+}
+
+.custom-btn:hover .btn-text {
+    transform: scale(1.2);
+}
+
+.colrd{
+    float: right;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+.navbar{
+    background-color: #0072C6;
+    color: whitesmoke;
+    padding: 10px;
+    width: 100%;
+    }
+.navbar-brand{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.nav-link{
+    margin: 5px;
+    color: black;
+}
+.partb{
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+.fa-github{
+    margin: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.fa-briefcase{
+    margin: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50% 50%;
+    
+}
+h2{
+    color: black;
+}
+h1{
+    font-size: 4vh;
+    font-weight: bolder;
+    margin-top: 100px;
+    color: black;
+    width: 100%;
+}
+#clock {
+    font-size: 1rem;
+    color: rgb(7, 1, 1);
+  }
+  
+
+.row{
+    border: grey solid 1px;
+    border-radius: 12px;
+    padding: 30px ;
+    margin-bottom: 60px;
+    color: black;
+
+}
+
+.col-sm-9{
+
+    border-radius: 9px 9px 19px 19px;
+    height: 100px;
+    font-size: 6vh;
+    color: #0072C6;
+}
+
+.col-sm-3{
+   
+    border-radius: 9px 9px 19px 19px;
+    height: 100px;
+    font-size: 60px;
+    color: #0072C6;
+ 
+}
+
+.here{
+   
+    color: white;
+}
+
+.container h1{
+    padding: 20px;
+    color:  whitesmoke;
+}
+
+.container .colr{
+    padding-top: 80px;
+}
+
+.container{
+    padding: 20px;
+    padding-top:20px ;
+  
+}
+
+.porte h1   {
+    color: black;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 5vh;
+    color:black;
+}
+iframe{
+    height: 45vh;
+    width: 55vw;
+}
+
+.item {
+    height: 45vh;
+    width: 55vw;
+    color: #fff;
+    font-size: 1.5em;
+    margin: 120px;
+    right: 100;
+    position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    text-align: center;
+}
+
+.item a{
+    align-items: center;
+}
+.left {
+    transform: translateX(-100%);
+}
+
+.right {
+    transform: translateX(100%);
+}
+
+.top {
+    transform: translateY(-100%);
+}
+
+.bottom {
+    transform: translateY(100%);
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 2vw;
+}
